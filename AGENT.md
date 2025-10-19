@@ -38,9 +38,8 @@ Os padrões de referencias de codificação a serem utilizados durante a impleme
 - *Indentacao*: utilize 4 (quatro) espaços, não utilizar TABs.
 
 ### 3.1 Estrutura do Projeto
-Utilize como referencia a organização abaixo (delimitadas pelas tags <organization></organization>).
+Utilize como referencia a organização abaixo:
 
-<organization>
 ```plaintext
 meu_projeto/
 ├── src/
@@ -53,7 +52,6 @@ meu_projeto/
 ├── requirements.txt
 ├── README.md
 ```
-</organization>
 
 - *meu_projeto/*: pasta raiz do projeto, contem todo o codigo e arquivos relacionados.
 - *src/*: pasta que armazena o código-fonte do *software*.
@@ -150,11 +148,13 @@ O desenvolvimento deve ser orientado à testes, sendo que a cada implementação
 
 Os testes devem utilizar pytest, com estrutura mínima:
 
+```plaintext
 tests/
   ├── unit/
   │   ├── test_<module>.py
   ├── integration/
   │   ├── test_<feature>.py
+```
 
 
 ## 9. Documentacao
@@ -193,9 +193,9 @@ Esta seção apresenta os modelos de referencias para a criação e condução d
 
 
 ### 12.3 Estrutura Python
-Pra codificação, a seguinte estrutura deve ser assumida (estrutura delimitada entre as tags <structure></structure>):
+Pra codificação, a seguinte estrutura deve ser assumida:
 
-<structure>
+
 ```plaintext
 #!/usr/bin/env python3
 
@@ -254,13 +254,11 @@ if __name__ == "__main__":
     [CONTENT]
 ## EOF
 ```
-</structure>
 
 
 ### 12.4 Methods
-Para implementação de métodos, use a seguinte estrutura (estrutura delimitada entre as tags <method></method):
+Para implementação de métodos, use a seguinte estrutura:
 
-<method>
 ```plaintext
 ##
 def method_name(PARAMETERS):
@@ -271,13 +269,11 @@ def method_name(PARAMETERS):
     CODE
 ## END OF METHOD.
 ```
-</method>
 
 
 ### 12.5 ,Classe
-Para implementação de classes, use a seguinte estrutura (estrutura delimitada entre as tags <class></class>)
+Para implementação de classes, use a seguinte estrutura:
 
-<class>
 ```plaintext
 ##
 class:
@@ -319,4 +315,4 @@ class:
         CODE
 ## END OF METHOD.
 ```
-</class>
+
